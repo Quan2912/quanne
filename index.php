@@ -192,7 +192,7 @@
 				<!-- wrapper for slides-->
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="Image-Toys/anhnne1.jpg" alt="PS6" style="width:100%; height: 500px;">
+						<img src="Image-Toys/anhnen1.jpg" alt="PS6" style="width:100%; height: 500px;">
 					</div>
 					<div class="item">
 						<img src="Image-Toys/anhnen2.jpg" alt="PS9" style="width:100%; height: 500px;">

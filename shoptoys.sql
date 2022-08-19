@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th8 18, 2022 lúc 05:12 AM
+-- Thời gian đã tạo: Th8 19, 2022 lúc 04:36 AM
 -- Phiên bản máy phục vụ: 10.4.24-MariaDB
 -- Phiên bản PHP: 8.1.6
 
@@ -58,7 +58,7 @@ CREATE TABLE `product` (
   `PID` int(200) NOT NULL,
   `PName` varchar(200) NOT NULL,
   `Genre` varchar(200) NOT NULL,
-  `Price` int(200) NOT NULL,
+  `Price` varchar(200) NOT NULL,
   `Img` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -67,14 +67,14 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`PID`, `PName`, `Genre`, `Price`, `Img`) VALUES
-(1, 'Optimus Prime', 'LEGO', 170, 'C1.jpg'),
-(2, 'The Starry Night', 'LEGO', 170, 'C2.jpg'),
-(3, 'Bugatti Chiron', 'LEGO', 350, 'C3.jpg'),
-(4, 'Santiago Bernabéu Stadium', 'LEGO', 350, 'C4.jpg'),
-(5, 'Hogwarts Castle', 'LEGO', 400, 'C5.jpg'),
-(6, 'Colosseum', 'LEGO', 550, 'C6.jpg'),
-(7, 'Ferrari Daytona SP3', 'LEGO', 400, 'C7.jpg'),
-(8, 'Camp Nou Stadium', 'LEGO', 350, 'C8.jpg');
+(1, 'Vinfast', '', '40000$', 'vin1.jpg'),
+(2, 'Lamborghini', '', '1000000$', 'lam1.jpg'),
+(3, 'Bugatti', '', '500000$', 'bu1.jpg'),
+(4, 'BMW', '', '35000$', 'bmw1.jpg'),
+(5, 'Roll-Royce', '', '1500000$', 'roll1.jpg'),
+(6, 'Porsche', '', '60000$', 'por1.jpg'),
+(7, 'Maserati', '', '70000$', 'mas1.jpg'),
+(8, 'Ferrari', '', '55000$', 'fera1.jpg');
 
 --
 -- Chỉ mục cho các bảng đã đổ
